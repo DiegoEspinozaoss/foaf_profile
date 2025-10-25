@@ -1,4 +1,4 @@
-@base <https://raw.githubusercontent.com/DiegoEspinozaoss/foaf_profile/refs/heads/main/foaf.ttl> .
+@base <@base <https://diegoespinozaoss.github.io/foaf_profile/foaf.ttl> .
 
 
 
