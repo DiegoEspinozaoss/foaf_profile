@@ -1,0 +1,34 @@
+@base <http://miusuario.github.io/foaf.ttl> .
+
+
+
+
+
+<> a foaf:Document ;
+   dc:date "2025-10-24"^^xsd:date ;
+   dc:title "Diego's FOAF Profile"@en ;
+   foaf:primaryTopic <#diego> ;
+   dc:creator <#diego> .
+
+
+
+
+
+
+<#diego> a foaf:Person ;
+   rdfs:label "Diego Espinoza" ;
+   rdfs:comment "Estudiante de la Universidad de Chile"@es ;
+   foaf:name "Diego Espinoza" ;
+   foaf:givenName "Diego" ;
+   foaf:familyName "Espinoza" ;
+   foaf:age 27 ;
+   foaf:img <https://avatars.githubusercontent.com/u/0000000?v=4> ;
+   foaf:homepage <https://www.linkedin.com/in/diegoespinoza/> ;
+   foaf:knows ah:ah , <http://users.dcc.uchile.cl/~bdelpino/foaf.ttl#bdp> , <http://anakena.dcc.uchile.cl/~rcid/foaf.ttl#rc> , <https://raw.githubusercontent.com/JorgeCVuwu/watos/main/foaf.ttl#jcv> ;
+   foaf:interest dbr:Semantic_Web , dbr:Astronomy , dbr:Machine_learning ;
+   social:likesMovie dbr:Interstellar , dbr:Inception ;
+   social:hasSpiritAnimal dbr:Wolf ;
+   social:hasFavouritePlatonicSolid dbr:Dodecahedron ;
+   foaf:myersBriggs "INTJ" ;
+   foaf:based_near dbr:Santiago ;
+   foaf:topic_interest dbr:Deep_learning .
